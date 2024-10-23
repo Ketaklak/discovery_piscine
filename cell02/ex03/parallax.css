@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.parallax.first {
+    background-image: url('img/img1.jpg');
+}
+
+
+.parallax.second {
+    background-image: url('img/img2.jpg');
+}
+
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.content {
+    background-color: #111;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.bloc-noir {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin: 20px;
+    font-size: 1.5em;
+}

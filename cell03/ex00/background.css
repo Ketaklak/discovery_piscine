@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s ease;
+    background-color: #f4f4f4;
+}
+
+/* Styles du bouton */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Effet hover pour le bouton */
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Effet lorsque le bouton est enfoncé (active) */
+button:active {
+    background-color: #1e6f99;
+    transform: scale(0.95);
+}
