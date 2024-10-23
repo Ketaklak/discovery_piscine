@@ -1,60 +1,53 @@
 
-# Discovery Piscine Web 2024 - École 42 Perpignan
+# 🌊 Discovery Piscine Web 2024 - École 42 Perpignan 🚀
 
-Ce projet contient une série d'exercices réalisés dans le cadre de la **Piscine Web Discovery 2024** à l'École 42 Perpignan. Chaque exercice se trouve dans des répertoires correspondant aux différentes cellules (cellules 0, 1, 2, 3), et chaque exercice a pour objectif d'approfondir vos compétences en développement web et en scripting.
+Bienvenue dans mon projet de la **Piscine Web Discovery 2024** à l'École 42 Perpignan ! Ce repo contient tout plein d'exercices pour se perfectionner en développement web et scripting. C'est organisé par cellules 📦, et chaque exercice a pour objectif de me rendre plus fort en code 💪 !
 
-## Structure du projet
+## 🗂️ Structure du projet
 
-Le projet est divisé en plusieurs dossiers, chacun contenant des fichiers HTML, CSS, et des scripts shell. Voici un aperçu des différents dossiers et exercices :
+Le projet est organisé en plusieurs dossiers, chacun correspondant à une cellule. Voici un aperçu rapide de ce que tu peux trouver :
 
-### Cellule 00 - Initiation à Shell
-- **Ex00 :** Création d'un dossier via des commandes shell.
-- **Ex01 :** `z` - Un script shell pour explorer les commandes de base.
-- **Ex02 :** `midLS` - Un script pour comprendre les fichiers et permissions en shell.
-- **Ex03 :** `count_files.sh` - Compte le nombre de fichiers dans un répertoire donné.
-- **Ex04 :** `argv.sh` - Un script qui manipule les arguments en ligne de commande.
-- **Ex05 :** `build.sh` - Automatisation de la compilation et de la construction d’un projet.
+### 📁 Cellule 00 - Initiation au Shell 🐚
+- **Ex00** : Créer un dossier via des commandes shell.
+- **Ex01** : `z` - Script shell pour explorer les commandes de base.
+- **Ex02** : `midLS` - Explorer les fichiers et les permissions avec shell.
+- **Ex03** : `count_files.sh` - Compter les fichiers dans un dossier.
+- **Ex04** : `argv.sh` - Manipulation des arguments en ligne de commande.
+- **Ex05** : `build.sh` - Automatisation de la construction d’un projet.
 
-### Cellule 01 - Développement Web de base
-- **Ex00 :** `helloworld.html` - Un fichier HTML simple pour la prise en main du langage.
-- **Ex01 :** `piscineweb.html` - Un fichier HTML plus avancé avec plusieurs éléments de style.
-- **Ex02 :** `piscineweb.html` - Continuation des exercices HTML.
-- **Ex03 :** `piscineweb.html` - Travail sur la structuration d'une page HTML.
-- **Ex04 :** `baba.html` - Un fichier HTML avec des images (`on1.png`, `on2.png`).
-- **Ex05 :** `tab.html` - Création d'un tableau en HTML.
-- **Ex06 :** `responsive.html` - Introduction au design responsive.
+### 🧑‍💻 Cellule 01 - Développement Web de base 🌐
+- **Ex00** : `helloworld.html` - Mon tout premier fichier HTML.
+- **Ex01 - Ex03** : `piscineweb.html` - Plusieurs versions pour améliorer mes skills en HTML.
+- **Ex04** : `baba.html` - Intégration d'images simples en HTML.
+- **Ex05** : `tab.html` - Création d'un tableau en HTML.
+- **Ex06** : `responsive.html` - Introduction au design responsive 📱💻.
 
-### Cellule 02 - CSS Avancé et Effets Visuels
-- **Ex00 :** `responsive.html` et `responsive.css` - Design responsive avec CSS.
-- **Ex01 :** `menu.html` et `menu.css` - Création d’un menu de navigation stylisé.
-- **Ex02 :** En cours ou non présent dans l'archive.
-- **Ex03 :** `parallax.html` et `parallax.css` - Effet de parallaxe avec images (`img1.jpg`, `img2.jpg`).
-- **Ex04 :** `card.html` et `card.css` - Création de cartes stylisées avec CSS.
+### 🎨 Cellule 02 - CSS Avancé et Effets Visuels ✨
+- **Ex00** : `responsive.html` & `responsive.css` - Perfectionnement du design responsive.
+- **Ex01** : `menu.html` & `menu.css` - Création d’un menu stylisé.
+- **Ex03** : `parallax.html` & `parallax.css` - Effet de parallaxe avec des images cool 😎.
+- **Ex04** : `card.html` & `card.css` - Création de jolies cartes stylisées.
 
-### Cellule 03 - Interactions et Effets JavaScript
-- **Ex00 :** `background.html`, `background.css`, `background.js` - Un exercice sur la manipulation et l'animation du fond d'écran avec JavaScript et CSS.
-- **Ex01 :** `balloon.html`- Un exercice sur l'animation d'un ballon avec du JavaScript.
-- **Ex02 :** `calc.html` - Un exercice pour créer une calculatrice simple avec HTML et JavaScript.
-- **Ex03 :** `index.html`, `style.css`, `todo.js` - Un exercice pour implémenter une application de type "to-do list" avec JavaScript.
+### 🔥 Cellule 03 - Interactions et Effets JavaScript ⚙️
+- **Ex00** : `background.html`, `background.css`, `background.js` - Animation de fond d'écran avec du JS.
+- **Ex01** : `balloon.html` - Animation d’un ballon avec HTML, CSS et JavaScript intégrés dans le fichier 🎈.
+- **Ex02** : `calc.html` - Une calculatrice basique avec HTML et CSS intégrés dans le fichier 🧮.
+- **Ex03** : `todo.html`, `style.css`, `todo.js` - To-do list avec du JavaScript 📋.
 
-## Utilisation du projet
+## 🚀 Comment utiliser ?
+- Pour ouvrir les exercices, lance simplement les fichiers `.html` dans ton navigateur préféré 🌐.
+- Pour exécuter les scripts shell 🐚, rends-les exécutables et exécute-les depuis ton terminal :
+    ```bash
+    chmod +x script.sh
+    ./script.sh
+    ```
 
-Pour ouvrir et visualiser les exercices, il suffit d'ouvrir les fichiers `.html` dans un navigateur web compatible. Pour les scripts shell, exécutez-les depuis un terminal après les avoir rendus exécutables :
+## 📚 Pourquoi ce projet ?
+L'idée est d'améliorer mes compétences en :
+- 🔧 Développement web (HTML, CSS, JS)
+- 🖥️ Scripting Shell pour l'automatisation
+- 💻 Interaction utilisateur avec JavaScript
+- 🎨 Responsiveness et design web moderne
 
-```bash
-chmod +x script.sh
-./script.sh
-```
-
-## Objectif pédagogique
-
-Le but de ce projet est d'améliorer vos compétences en :
-- Développement web (HTML, CSS)
-- Scripts Shell pour l’automatisation
-- JavaScript pour l'interaction avec l'utilisateur
-- Responsiveness et design web moderne
-- Animation d'interfaces web (parallaxe, menus, etc.)
-
-## Contributions
-
-Ce projet fait partie de la **Piscine Web 2024** et les contributions externes ne sont pas acceptées pour le moment. Merci de votre compréhension.
+## 🤝 Contribs ?
+Pas pour l'instant, c’est un projet perso pour la Piscine Web 2024. Mais qui sait pour plus tard 😉 ?
