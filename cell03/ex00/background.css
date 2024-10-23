@@ -9,7 +9,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Styles du bouton */
+
 button {
     padding: 15px 30px;
     font-size: 18px;
@@ -23,13 +23,13 @@ button {
     transition: background-color 0.3s ease, transform 0.2s;
 }
 
-/* Effet hover pour le bouton */
+
 button:hover {
     background-color: #2980b9;
     transform: scale(1.05);
 }
 
-/* Effet lorsque le bouton est enfoncé (active) */
+
 button:active {
     background-color: #1e6f99;
     transform: scale(0.95);
