@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice Moderne</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .calculator-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"], select {
+            width: 80px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+            text-align: center;
+            transition: border 0.3s ease;
+        }
+
+        input[type="text"]:focus, select:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        input[type="button"] {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="button"]:hover {
+            background-color: #0056b3;
+        }
+
+        .input-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    function calculate() {
+        const leftValue = $('#left').val();
+        const operator = $('#operator').val();
+        const rightValue = $('#right').val();
+
+        const leftNum = parseFloat(leftValue);
+        const rightNum = parseFloat(rightValue);
+
+        let result;
+
+        switch (operator) {
+            case '+':
+                result = leftNum + rightNum;
+                break;
+            case '-':
+                result = leftNum - rightNum;
+                break;
+            case '*':
+                result = leftNum * rightNum;
+                break;
+            case '/':
+                if (rightNum === 0) {
+                    alert("It's over 9000!");
+                    return;
+                }
+                result = leftNum / rightNum;
+                break;
+            case '%':
+                if (rightNum === 0) {
+                    alert("It's over 9000!");
+                    return;
+                }
+                result = leftNum % rightNum;
+                break;
+            default:
+                alert('Error :(');
+                return;
+        }
+
+        alert(`Result: ${result}`);
+    }
+
+    setInterval(() => {
+        alert('Please, use me...');
+    }, 30000);
+    </script>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Calculatrice Moderne</h1>
+        <div class="input-group">
+            <input type="text" id="left" placeholder="Opé gauche" />
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>
+            <input type="text" id="right" placeholder="Opé droite" />
+        </div>
+        <input type="button" value="Calculer" onclick="calculate()" />
+    </div>
+</body>
+</html>

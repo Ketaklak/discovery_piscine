@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #eef2f7;
+    color: #333;
+    padding: 20px;
+}
+
+button {
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0072ff, #00c6ff);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+#ft_list {
+    width: 400px;
+    border: none;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+#ft_list:hover {
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+}
+
+#ft_list div {
+    padding: 15px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+#ft_list div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.5s ease;
+}
+
+#ft_list div:hover::before {
+    left: 100%;
+}
+
+#ft_list div:hover {
+    background-color: #f0f4f8;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#ft_list div span {
+    display: block;
+    font-size: 16px;
+    color: #555;
+}
+

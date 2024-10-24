@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice : Souffler dans le ballon</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    }
+
+    #balloon {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 50%;
+        transition: width 0.4s ease, height 0.4s ease, background-color 0.4s ease;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    #balloon:hover {
+        cursor: pointer;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+<body>
+    <div id="balloon"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    let size = 200;
+    let colors = ['red', 'green', 'blue'];
+    let colorIndex = 0;
+
+    $('#balloon').on('click', function() {
+        $(this).css('animation', 'bounce 0.5s ease');
+
+        size += 10;
+        $(this).css({
+            'width': size + 'px',
+            'height': size + 'px',
+        });
+
+        colorIndex = (colorIndex + 1) % colors.length;
+        $(this).css('background-color', colors[colorIndex]);
+
+        if (size > 420) {
+            alert('Le ballon a explosé !');
+            size = 200;
+            colorIndex = 0;
+            $(this).css({
+                'width': size + 'px',
+                'height': size + 'px',
+                'background-color': 'red',
+            });
+        }
+
+        setTimeout(() => {
+            $(this).css('animation', '');
+        }, 500);
+    });
+
+    $('#balloon').on('mouseleave', function() {
+        if (size > 200) {
+            size -= 5;
+            $(this).css({
+                'width': size + 'px',
+                'height': size + 'px',
+            });
+
+            colorIndex = (colorIndex - 1 + colors.length) % colors.length;
+            $(this).css('background-color', colors[colorIndex]);
+        }
+    });
+    </script>
+</body>
+</html>
