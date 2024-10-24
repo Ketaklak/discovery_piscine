@@ -34,6 +34,12 @@ Le projet est organisé en plusieurs dossiers, chacun correspondant à une cellu
 - **Ex03** : `todo.html`, `style.css`, `todo.js` - To-do list interactive avec du JavaScript 📋.
 - **Ex04** : Adaptation des fichiers des exercices précédents pour utiliser jQuery, améliorant ainsi l'interactivité et la gestion des tâches.
 
+### 📜 RUSH 4.0 - Mini Site One-Page 🚀
+- **Exercice** : Création d'un mini site one-page pour afficher vos CVs, comprenant :
+  - Une barre de navigation.
+  - Trois sections pour afficher différentes parties de votre CV.
+  - Responsivité et design attrayant, idéalement en utilisant le framework Bootstrap.
+
 ## 🚀 Comment utiliser ?
 - Pour ouvrir les exercices, lance simplement les fichiers `.html` dans ton navigateur préféré 🌐.
 - Pour exécuter les scripts shell 🐚, rends-les exécutables et exécute-les depuis ton terminal :
