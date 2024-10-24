@@ -1,4 +1,3 @@
-
 # 🌊 Discovery Piscine Web 2024 - École 42 Perpignan 🚀
 
 Bienvenue dans mon projet de la **Piscine Web Discovery 2024** à l'École 42 Perpignan ! Ce repo contient tout plein d'exercices pour se perfectionner en développement web et scripting. C'est organisé par cellules 📦, et chaque exercice a pour objectif de me rendre plus fort en code 💪 !
@@ -32,7 +31,8 @@ Le projet est organisé en plusieurs dossiers, chacun correspondant à une cellu
 - **Ex00** : `background.html`, `background.css`, `background.js` - Animation de fond d'écran avec du JS.
 - **Ex01** : `balloon.html` - Animation d’un ballon avec HTML, CSS et JavaScript intégrés dans le fichier 🎈.
 - **Ex02** : `calc.html` - Une calculatrice basique avec HTML et CSS intégrés dans le fichier 🧮.
-- **Ex03** : `todo.html`, `style.css`, `todo.js` - To-do list avec du JavaScript 📋.
+- **Ex03** : `todo.html`, `style.css`, `todo.js` - To-do list interactive avec du JavaScript 📋.
+- **Ex04** : Adaptation des fichiers des exercices précédents pour utiliser jQuery, améliorant ainsi l'interactivité et la gestion des tâches.
 
 ## 🚀 Comment utiliser ?
 - Pour ouvrir les exercices, lance simplement les fichiers `.html` dans ton navigateur préféré 🌐.
@@ -44,9 +44,9 @@ Le projet est organisé en plusieurs dossiers, chacun correspondant à une cellu
 
 ## 📚 Pourquoi ce projet ?
 L'idée est d'améliorer mes compétences en :
-- 🔧 Développement web (HTML, CSS, JS)
+- 🔧 Développement web (HTML, CSS, JS, jQuery)
 - 🖥️ Scripting Shell pour l'automatisation
-- 💻 Interaction utilisateur avec JavaScript
+- 💻 Interaction utilisateur avec JavaScript et jQuery
 - 🎨 Responsiveness et design web moderne
 
 ## 🤝 Contribs ?
